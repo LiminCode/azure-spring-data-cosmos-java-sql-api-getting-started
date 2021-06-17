@@ -6,6 +6,9 @@ module com.azure.spring.data.cosmos.demo {
     requires transitive com.azure.spring.data.cosmos;
     requires spring.boot;
     requires spring.boot.autoconfigure;
+    requires spring.context;
+    requires spring.beans;
+    requires spring.core;
 
     opens com.azure.spring.data.cosmostutorial to
         com.fasterxml.jackson.databind,

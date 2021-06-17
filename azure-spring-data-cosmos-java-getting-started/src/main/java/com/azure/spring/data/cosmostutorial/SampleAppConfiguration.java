@@ -22,7 +22,8 @@ import org.springframework.lang.Nullable;
 @Configuration
 @EnableConfigurationProperties(CosmosProperties.class)
 @EnableCosmosRepositories
-@EnableReactiveCosmosRepositories
+ 
+
 @PropertySource("classpath:application.properties")
 public class SampleAppConfiguration extends AbstractCosmosConfiguration {
     private static final Logger logger = LoggerFactory.getLogger(SampleAppConfiguration.class);
