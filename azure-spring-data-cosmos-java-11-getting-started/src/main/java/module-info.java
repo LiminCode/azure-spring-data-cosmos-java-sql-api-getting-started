@@ -9,6 +9,7 @@ module com.azure.spring.data.cosmos.demo {
     requires spring.context;
     requires spring.beans;
     requires spring.core;
+    requires spring.web;
 
     opens com.azure.spring.data.cosmostutorial to
         com.fasterxml.jackson.databind,

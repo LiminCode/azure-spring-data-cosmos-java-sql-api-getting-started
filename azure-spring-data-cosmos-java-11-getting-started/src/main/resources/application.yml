@@ -1,0 +1,8 @@
+azure:
+ cosmos:
+  uri: https://limin.documents.azure.com:443/
+  key: 3jzJJlgKL4H0352nH0OEkEHaOnpbuIROryUzZ3XSvK4KJtLQ3TAKdfbyNRomrVBiXpDNCUy4xwMORbmW4Kbo6A==
+  secondaryKey: 3ebBAJtgZ4bBT0IErsh8p66KualVcTdUG8eQAALFxWFKYxlkrBsSHKlKXTrG6dp5kb57fWN2srDgS2iY9ntxTw==
+  queryMetricsEnabled: true # Populate query metrics
+  database: Competitor-Shopper
+#dynamic.collection.name=spel-property-collection
